@@ -1,25 +1,27 @@
 # Waffle-Shop
-This is a beginner-friendly mini project built using only HTML and CSS. It's perfect for anyone who is just starting to learn web development and wants to understand how different web pages can be connected and styled using CSS.
+This is a basic website project developed in Visual Studio Code using HTML and CSS. It's perfect for beginners who are learning how to structure web pages and apply styles through an external stylesheet.
 
-🔗 Project Features:
-Four Web Pages:
+📁 Project Structure:
+✅ Created and edited in Visual Studio Code
 
-Home Page – Welcome section or intro about the site.
+✅ All pages are connected and styled using a single CSS file (main.css)
 
-Drinks Page – A page that showcases different drink options.
+✅ Smooth navigation across pages using internal links
 
-Waffle Page – A page displaying various types of waffles.
+📄 The Website Has 4 Pages:
+Home Page – Introduction or welcome content
 
-Contact Page – A simple form or information to get in touch.
+Drinks Page – Displays various drink items
 
-Connected with a Single CSS File:
-All pages share one external stylesheet (main.css) to maintain a consistent look and feel.
+Waffle Page – Lists different types of waffles
 
-🧠 What You'll Learn:
-How to create and link multiple HTML pages.
+Contact Page – Contains contact details or a simple form
 
-How to use an external CSS file for styling.
+🎯 Key Learning Points:
+Linking multiple HTML pages
 
-Basic layout design using HTML and CSS.
+Using external CSS for consistent design
 
-Navigation between pages using hyperlinks.
+Practicing page layout and styling
+
+Building and testing in VS Code
