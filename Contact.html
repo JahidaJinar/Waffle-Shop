@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
         <head>
             <title>Contact Page</title>
@@ -21,7 +21,7 @@
         <body>
             <p><h1><i>Contact us please...</i></h1></p>
             <hr>
-            <form action="http://httpbin.org/get" method="get"></form>
+            <form action="http://httpbin.org/get" method="get">
             <fieldset>
                 <legend><h4>Information</h4></legend>
                 <p>
@@ -34,18 +34,19 @@
                     <input type="tel" name="phone" id="phone" placeholder="555676"
                     apattern="[0-9]{3}[0-9]{3}[0-9]{5}" required>
                 </p>
-                <p>
-                    <label for="gender">Gender:</label>
-                    <input type="radio" name="gender" id="gender" value="gender">
-                    <label for="gender">Male</label>
-    
-                    <input type="radio" name="gender" id="gender" value="gender">
-                    <label for="gender">Female</label>
-    
-                    <input type="radio" name="gender" id="gender" value="gender">
-                    <label for="gender">Others</label>
-                </p>
+               <!-- Gender -->
+               <p>
+               <input type="radio" name="gender" id="male" value="male">
+               <label for="male">Male</label>
+
+               <input type="radio" name="gender" id="female" value="female">
+               <label for="female">Female</label>
+
+                <input type="radio" name="gender" id="others" value="others">
+                <label for="others">Others</label>
+               </p>
             </fieldset>
+            </form>
             <fieldset>
                 <legend><strong>Order Now!</strong></legend>
                 <p><h5>Select waffle</h5></p>
@@ -121,10 +122,10 @@
     
             </fieldset>
             <p>
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
-                <button type="back"><a href="Drinks.html">Back</a></button>
-                <button type="home"><a href="index.html">Home</a></button>
+                 <button type="submit">Submit</button>
+                 <button type="reset">Reset</button>
+                 <a href="Drinks.html" class="button">Back</a>
+                 <a href="index.html" class="button">Home</a>
             </p>
     
         </body>
