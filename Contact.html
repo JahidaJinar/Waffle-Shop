@@ -1,131 +1,125 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <title>Contact Page</title>
-            <link rel="icon" href="Fast Food Logo.png" type="image/x-icon">
-            <style>
-                html{
-                    font-size: 22px;
-                }
-                body{
-                    background-color: rgb(196, 161, 191);
-                    color:rgb(41, 7, 104);
-                }
-            
-                a:visited{
-                    color:black;
-                }
-            </style>
-            
-        </head>
-        <body>
-            <p><h1><i>Contact us please...</i></h1></p>
-            <hr>
-            <form action="http://httpbin.org/get" method="get">
-            <fieldset>
-                <legend><h4>Information</h4></legend>
-                <p>
-                    <label for="firstName">Name:</label>
-                    <input type="text" name="firstName" id="firstName" placeholder="."
-                    autocomplete="on" autocomplete="on" required>
-                </p>
-                <p>
-                    <label for="phone">Phone:</label>
-                    <input type="tel" name="phone" id="phone" placeholder="555676"
-                    apattern="[0-9]{3}[0-9]{3}[0-9]{5}" required>
-                </p>
-               <!-- Gender -->
-               <p>
-               <input type="radio" name="gender" id="male" value="male">
-               <label for="male">Male</label>
+<html lang="en">
+<head>
+    <title>Contact Page</title>
+    <link rel="icon" href="images/Waffle Food Logo.png" type="image/x-icon">
+    <style>
+        html { font-size: 22px; }
+        body { 
+            background-color: rgb(196, 161, 191); 
+            color: rgb(41, 7, 104);
+        }
+        a:visited { color: black; }
+    </style>
+</head>
+<body>
+    <h1><i>Contact us please...</i></h1>
+    <hr>
 
-               <input type="radio" name="gender" id="female" value="female">
-               <label for="female">Female</label>
+    <form action="http://httpbin.org/get" method="get">
+        <fieldset>
+            <legend><h4>Information</h4></legend>
+            <p>
+                <label for="firstName">Name:</label>
+                <input type="text" name="firstName" id="firstName" 
+                       placeholder="Your name" autocomplete="on" required>
+            </p>
+            <p>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" 
+                       placeholder="555-676-1234" 
+                       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            </p>
+            <p>
+                <label>Gender:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
 
                 <input type="radio" name="gender" id="others" value="others">
                 <label for="others">Others</label>
-               </p>
-            </fieldset>
-            </form>
-            <fieldset>
-                <legend><strong>Order Now!</strong></legend>
-                <p><h5>Select waffle</h5></p>
-                <p>
-                    <input type="checkbox" name="waffle" id="waffle" value="waffle">
-                    <label for="waffle">Chocolate Waffle</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="waffle" id="waffle" value="waffle">
-                    <label for="waffle">Chocolate Waffle</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="waffle" id="waffle" value="waffle">
-                    <label for="waffle">Mango Mad Waffle</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="waffle" id="waffle" value="waffle">
-                    <label for="waffle">Strawbery Waffle</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="waffle" id="waffle" value="waffle">
-                    <label for="waffle">Butter Waffle</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="waffle" id="waffle" value="waffle">
-                    <label for="waffle">Vanilla Waffle</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="waffle" id="waffle" value="waffle">
-                    <label for="waffle">Ice-cream Chocolate Waffle</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="waffle" id="waffle" value="waffle">
-                    <label for="waffle">Ice-cream Mango Waffle</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="waffle" id="waffle" value="waffle">
-                    <label for="waffle">Ice-cream Strawbery Waffle</label>
-                </p>
-                <p><h4>Select Drinks!</h4></p>
-                <p>
-                    <input type="checkbox" name="drinks" id="drinks" value="drinks">
-                    <label for="drinks">Mango Juice</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="drinks" id="drinks" value="drinks">
-                    <label for="drinks">Cold Coffe</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="drinks" id="drinks" value="drinks">
-                    <label for="drinks">Chocolate Cold Coffee</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="drinks" id="drinks" value="drinks">
-                    <label for="drinks">Dragon Smoothie</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="drinks" id="drinks" value="drinks">
-                    <label for="drinks">Masala Tea</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="drinks" id="drinks" value="drinks">
-                    <label for="drinks">Regular Tea</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="drinks" id="drinks" value="drinks">
-                    <label for="drinks">Regular Coffee</label>
-                </p>
-                <p>
-                    <input type="checkbox" name="drinks" id="drinks" value="drinks">
-                    <label for="drinks">Water</label>
-                </p>
-    
-            </fieldset>
-            <p>
-                 <button type="submit">Submit</button>
-                 <button type="reset">Reset</button>
-                 <a href="Drinks.html" class="button">Back</a>
-                 <a href="index.html" class="button">Home</a>
             </p>
-    
-        </body>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>Order Now!</strong></legend>
+            <h5>Select waffle</h5>
+            <p>
+                <input type="checkbox" name="waffle" id="chocolate_waffle" value="chocolate">
+                <label for="chocolate_waffle">Chocolate Waffle</label>
+            </p>
+            <p>
+                <input type="checkbox" name="waffle" id="mango_waffle" value="mango">
+                <label for="mango_waffle">Mango Mad Waffle</label>
+            </p>
+            <p>
+                <input type="checkbox" name="waffle" id="strawberry_waffle" value="strawberry">
+                <label for="strawberry_waffle">Strawberry Waffle</label>
+            </p>
+            <p>
+                <input type="checkbox" name="waffle" id="butter_waffle" value="butter">
+                <label for="butter_waffle">Butter Waffle</label>
+            </p>
+            <p>
+                <input type="checkbox" name="waffle" id="vanilla_waffle" value="vanilla">
+                <label for="vanilla_waffle">Vanilla Waffle</label>
+            </p>
+            <p>
+                <input type="checkbox" name="waffle" id="icecream_chocolate" value="icecream_chocolate">
+                <label for="icecream_chocolate">Ice-cream Chocolate Waffle</label>
+            </p>
+            <p>
+                <input type="checkbox" name="waffle" id="icecream_mango" value="icecream_mango">
+                <label for="icecream_mango">Ice-cream Mango Waffle</label>
+            </p>
+            <p>
+                <input type="checkbox" name="waffle" id="icecream_strawberry" value="icecream_strawberry">
+                <label for="icecream_strawberry">Ice-cream Strawberry Waffle</label>
+            </p>
+
+            <h4>Select Drinks!</h4>
+            <p>
+                <input type="checkbox" name="drinks" id="mango_juice" value="mango_juice">
+                <label for="mango_juice">Mango Juice</label>
+            </p>
+            <p>
+                <input type="checkbox" name="drinks" id="cold_coffee" value="cold_coffee">
+                <label for="cold_coffee">Cold Coffee</label>
+            </p>
+            <p>
+                <input type="checkbox" name="drinks" id="chocolate_coffee" value="chocolate_coffee">
+                <label for="chocolate_coffee">Chocolate Cold Coffee</label>
+            </p>
+            <p>
+                <input type="checkbox" name="drinks" id="dragon_smoothie" value="dragon_smoothie">
+                <label for="dragon_smoothie">Dragon Smoothie</label>
+            </p>
+            <p>
+                <input type="checkbox" name="drinks" id="masala_tea" value="masala_tea">
+                <label for="masala_tea">Masala Tea</label>
+            </p>
+            <p>
+                <input type="checkbox" name="drinks" id="regular_tea" value="regular_tea">
+                <label for="regular_tea">Regular Tea</label>
+            </p>
+            <p>
+                <input type="checkbox" name="drinks" id="regular_coffee" value="regular_coffee">
+                <label for="regular_coffee">Regular Coffee</label>
+            </p>
+            <p>
+                <input type="checkbox" name="drinks" id="water" value="water">
+                <label for="water">Water</label>
+            </p>
+        </fieldset>
+
+        <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <a href="Drinks.html" style="text-decoration: none; padding: 5px; border: 1px solid gray;">Back</a>
+            <a href="index.html" style="text-decoration: none; padding: 5px; border: 1px solid gray;">Home</a>
+        </p>
+    </form>
+</body>
+</html>
