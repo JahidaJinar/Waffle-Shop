@@ -1,4 +1,6 @@
 # Waffle-Shop
+Visit site:  https://jahidajinar.github.io/Waffle-Shop/
+
 This is a basic website project developed in Visual Studio Code using HTML and CSS. It's perfect for beginners who are learning how to structure web pages and apply styles through an external stylesheet.
 
 📁 Project Structure:
